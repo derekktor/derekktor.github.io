@@ -1,2 +1,3 @@
 # derekktor.github.io
-HERES DESCRIPTION
+
+Was built initially for the purpose of testing the workings of segment code
