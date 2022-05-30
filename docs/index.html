@@ -89,6 +89,63 @@
             </div>
         </div>
         
+        <div>
+        
+            <head>
+                Neural Network
+            </head>
+            <ul>
+                <li>
+                    as any machine learning model, neural network gets input(age, education, profession) and then outputs a
+                    value(salary) to predict the input
+                </li>
+                <li>
+                    has input layer, output layer and multiple hidden layers
+                </li>
+                <li>
+                    each layer contains multiple neurons
+                </li>
+                <li>
+                    at each layer, neurons are multiplied by weights and summed together with a bias and transformed by a
+                    activation function, specific to the layer
+                </li>
+                <li>
+                    weights are unique to each neuron and at input layer, they're assigned arbitrarily
+                </li>
+                <li>
+                    bias is unique for each layer, and depends on the activation function used
+                </li>
+                <li>
+                    activation function is specific to each layer and transforms the sum into a value that can be used to decide
+                    whether if the neuron at current layer should be passed further(activated) or not
+                </li>
+                <li>
+                    uses gradient descent to optimize the result
+                </li>
+                <li>
+                    gradient descent uses the slope extracted from the graph of loss function to find the optimal value(minimum
+                    value for loss function)
+                </li>
+                <li>
+                    loss function is used to calculate how far away is the prediction from the actual representation
+                </li>
+                <li>
+                    neural network performs calculation iteratively to find the optimal result, by iterating cycles of
+                    forward-propagation and backward-propagation
+                </li>
+                <li>
+                    forward-propagation is the cycle of calculating the end result by multiplying neurons with their weights and
+                    summing them up and then transforming according to their activation functions in order to get the prediction
+                </li>
+                <li>
+                    backward-propagation happens for the first time only after a forward-propagation takes place
+                </li>
+                <li>
+                    backward-propagation calculates error(from loss function) and then gains an answer to in which direction
+                    each weight should be changed to in order to minimize the overall error
+                </li>
+            </ul>
+        </div>
     </div>
 
 
