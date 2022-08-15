@@ -1,0 +1,16 @@
+:root {
+	--mainColor: black;
+	--secondaryColor: midnightblue;
+
+	--borderColor: cornsilk;
+
+	--mainText: white;
+	--secondaryText: yellow;
+
+	--themeDotBorder: lightyellow;
+
+	--previewBg: rgba(0, 255, 0, .4);
+	--previewShadow: rgba(60, 179, 113, .5);
+
+	--buttonColor: black;
+}
